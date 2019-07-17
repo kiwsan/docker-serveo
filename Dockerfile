@@ -10,4 +10,4 @@ ENV REMOTE_PORT 80
 ENV REMOTE_HOST kiwsan
 
 #ssh -R kiwsan:80:localhost:8082 serveo.net
-CMD ["sh", "-c", "ssh -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -R $REMOTE_HOST:$REMOTE_PORT:$LOCAL_HOST:$LOCAL_PORT serveo.net"]
+CMD ["sh", "-c", "ssh -R $REMOTE_HOST:$REMOTE_PORT:$LOCAL_HOST:$LOCAL_PORT serveo.net"]
