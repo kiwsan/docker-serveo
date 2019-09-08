@@ -3,7 +3,7 @@
 https://kiwsan-registry.serveo.net/
 
 That's amazing, right? 😀 I wanna show you in this an example. 
-How to expose your local servers to the internet using SSH with serveo.net, So you can visit to my private docker repositories from this website.
+How to expose your local servers to the internet using SSH with serveo.net, So you can visit to my private docker repositories into this website.
 
 Wow!!! 😉😉
 
